@@ -11,7 +11,11 @@ export default {
         'primary':'#661d24',
        
       }),
-      
+      textColor: theme => ({
+        ...theme('colors'),
+        'primary':'#661d24',
+       
+      }),
     },
   },
   plugins: [],
